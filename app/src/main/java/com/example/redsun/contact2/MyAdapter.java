@@ -14,7 +14,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private List<List_View> item;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView heading, desc,status;
+        public TextView heading, desc;
 
         public MyViewHolder(View view) {
             super(view);
@@ -43,10 +43,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         List_View v = item.get(position);
         holder.heading.setText(v.getHead());
         holder.desc.setText(v.getDesc());
-
-
-
-
 
 
     }
