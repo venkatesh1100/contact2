@@ -71,6 +71,7 @@ public class SecondActivity extends Activity {
                 }
             }
         }
+
         for(Map.Entry m:contacts.entrySet())
         {
 
