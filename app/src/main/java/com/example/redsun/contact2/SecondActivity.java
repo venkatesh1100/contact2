@@ -60,7 +60,7 @@ public class SecondActivity extends Activity {
                 String dis=ph.getString(ph.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                 if(phonenumber.substring(0,1).equals("9")||phonenumber.substring(0,1).equals("8")||phonenumber.substring(0,1).equals("7")||phonenumber.substring(0,1).equals("+"))
                 {
-                    phonenumber=filter(phonenumber);
+                   phonenumber=filter(phonenumber);
                     if(!check.equals(phonenumber)) {
                         check=phonenumber;
                         if(!phonenumber.substring(0,3).equals("+91"))
